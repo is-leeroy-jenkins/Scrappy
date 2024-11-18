@@ -1,5 +1,5 @@
-# Scrappy
-![](https://github.com/is-leeroy-jenkins/Scrappy/blob/main/Resources/Assets/GitHubImages/ProjectTemplate.png)
+##### __
+![](https://github.com/is-leeroy-jenkins/Scrappy/blob/master/Source/Resources/Assets/GitHubImages/ProjectTemplate.png)
 - Scrappy is a web scraping application built using .NET 8.0 and WPF written in C#. 
 - It collects various types of data and exports them into organized and structured databases. 
 - The application features a modern UI design with detailed and comprehensive logging.
@@ -7,32 +7,32 @@
 
 
 
-## ![](https://github.com/is-leeroy-jenkins/Scrappy/blob/main/Resources/Assets/GitHubImages/documentation.png) Documentation
+## ![](https://github.com/is-leeroy-jenkins/Scrappy/blob/master/Source/Resources/Assets/GitHubImages/documentation.png) Documentation
 
-- [User Guide](Resources/Github/Users.md)
-- [Compilation Guide](Resources/Github/Compilation.md)
-- [Configuration Guide](Resources/Github/Configuration.md)
-- [Distribution Guide](Resources/Github/Distribution.md)
+- [User Guide](/Source/Resources/Github/Users.md)
+- [Compilation Guide](/Source/Resources/Github/Compilation.md)
+- [Configuration Guide](/Source/Resources/Github/Configuration.md)
+- [Distribution Guide](/Source/Resources/Github/Distribution.md)
 
 
-## ![](https://github.com/is-leeroy-jenkins/Scrappy/blob/main/Resources/Assets/GitHubImages/csharp.png) Code
+## ![](https://github.com/is-leeroy-jenkins/Scrappy/blob/master/Source/Resources/Assets/GitHubImages/csharp.png) Code
 
 - Scrappy uses CefSharp 106 for Baby Browser and is built on NET 6
 - Scrappy supports AnyCPU as well as x86/x64 specific builds
-- [Controls](https://github.com/is-leeroy-jenkins/Scrappy/tree/main/Controls) - main UI layer and associated controls and related functionality.
-- [Enumerations](https://github.com/is-leeroy-jenkins/Scrappy/tree/main/Enumerations) - various enumerations used for budgetary accounting.
-- [Extensions](https://github.com/is-leeroy-jenkins/Scrappy/tree/main/Extensions)- useful extension methods for budget analysis by type.
-- [Clients](https://github.com/is-leeroy-jenkins/Scrappy/tree/main/Clients) - other tools used and available.
-- [Callbacks](https://github.com/is-leeroy-jenkins/Scrappy/tree/main/Callbacks) - delegates, event-hanlders, and events.
-- [IO](https://github.com/is-leeroy-jenkins/Scrappy/tree/main/IO) - input output classes used for networking and the file systemm.
-- [Static](https://github.com/is-leeroy-jenkins/Scrappy/tree/main/Static) - static types used in the analysis of environmental budget data.
-- [Interfaces](https://github.com/is-leeroy-jenkins/Scrappy/tree/Interfaces) - abstractions used in the analysis of environmental budget data.
+- [Controls](https://github.com/is-leeroy-jenkins/Scrappy/tree/master/Source/UI/Controls) - main UI layer and associated controls and related functionality.
+- [Enumerations](https://github.com/is-leeroy-jenkins/Scrappy/tree/master/Source/Enumerations) - various enumerations used for budgetary accounting.
+- [Extensions](https://github.com/is-leeroy-jenkins/Scrappy/tree/master/Source/Extensions)- useful extension methods for budget analysis by type.
+- [Clients](https://github.com/is-leeroy-jenkins/Scrappy/tree/master/Source/Data/Clients) - other tools used and available.
+- [Callbacks](https://github.com/is-leeroy-jenkins/Scrappy/tree/master/Source/Callbacks) - delegates, event-hanlders, and events.
+- [IO](https://github.com/is-leeroy-jenkins/Scrappy/tree/master/Source/IO) - input output classes used for networking and the file systemm.
+- [Static](https://github.com/is-leeroy-jenkins/Scrappy/tree/master/Source/Static) - static types used in the analysis of environmental budget data.
+- [Interfaces](https://github.com/is-leeroy-jenkins/Scrappy/tree/master/Source/UI) - abstractions used in the analysis of environmental budget data.
 - `bin` - Binaries are included in the `bin` folder due to the complex Baby setup required. Don't empty this folder.
 - `bin/storage` - HTML and JS required for downloads manager and custom error pages
 
 
 
-## ![](https://github.com/is-leeroy-jenkins/Scrappy/blob/main/Resources/Assets/GitHubImages/features.png) Features
+## ![](https://github.com/is-leeroy-jenkins/Scrappy/blob/master/Source/Resources/Assets/GitHubImages/features.png) Features
 
 - **Asynchronous Web Scraping**: Efficiently scrape web pages using asynchronous tasks with minimized latency and multi-threading for parallel processing.
 - **Data Collection**: Collects data such as PDFs, CSVs, DOCX, XLS, PPTX, TXT, Images, Videos, JSON, DBSQL, XML, HTML, PHP, JS, Archives, and Miscellaneous files.
@@ -52,7 +52,7 @@ Pre-built and binaries (setup, portable and archive) are available on the with i
 
 
 
-## ![](https://github.com/is-leeroy-jenkins/Scrappy/blob/master/Resources/Assets/GitHubImages/tools.png) Build
+## ![](https://github.com/is-leeroy-jenkins/Scrappy/blob/master/Source/Resources/Assets/GitHubImages/tools.png) Build
 
 - [x] VisualStudio 2022
 - [x] Based on .NET8 and WPF
@@ -141,7 +141,7 @@ Scrappy uses the following projects and libraries. Please consider supporting th
 | [Syncfusion WPF Controls 24.1.41](https://github.com/nulastudio/NetBeauty2)   | UI controls and components and dependencies into a sub-directory       |
 | [PSDiscoveryProtocol](https://github.com/lahell/PSDiscoveryProtocol)          | PowerShell module for LLDP/CDP discovery                               |
 
-## ![](https://github.com/is-leeroy-jenkins/Scrappy/blob/master/Scrappy/Resources/GitHubImages/signature.png)  Code Signing 
+## ![](https://github.com/is-leeroy-jenkins/Scrappy/blob/master/Source/Resources/GitHubImages/signature.png)  Code Signing 
 
 Scrappy uses free code signing provided by [SignPath.io](https://signpath.io/) and a free code signing certificate
 from [SignPath Foundation](https://signpath.org/).
@@ -151,7 +151,7 @@ Build artifacts are automatically sent to [SignPath.io](https://signpath.io/) vi
 The signed binaries are then uploaded to the [GitHub releases](https://github.com/is-leeroy-jenkins/Scrappy/releases) page.
 
 
-## ![](https://github.com/is-leeroy-jenkins/Scrappy/blob/master/Scrappy/Resources/GitHubImages/training.png) Privacy Policy
+## ![](https://github.com/is-leeroy-jenkins/Scrappy/blob/master/Source/Resources/GitHubImages/training.png) Privacy Policy
 
 This program will not transfer any information to other networked systems unless specifically requested by the user or the person installing or operating it.
 
