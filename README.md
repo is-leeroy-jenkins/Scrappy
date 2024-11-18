@@ -6,6 +6,19 @@
 
 
 
+## ![](https://github.com/is-leeroy-jenkins/Scrappy/blob/master/Source/Resources/Assets/GitHubImages/features.png) Features
+
+- **Asynchronous Web Scraping**: Efficiently scrape web pages using asynchronous tasks with minimized latency and multi-threading for parallel processing.
+- **Data Collection**: Collects data such as PDFs, CSVs, DOCX, XLS, PPTX, TXT, Images, Videos, JSON, DBSQL, XML, HTML, PHP, JS, Archives, and Miscellaneous files.
+- **Comprehensive JSON, XML, and HTML Parsing**: Utilizes advanced parsing techniques to extract valuable information from JSON, XML, and HTML documents, including finding and processing hidden element data and meta data.
+- **Database Integration**: Organizes scraped URLs into SQLite databases based on their file types.
+- **Modern UI Design**: User-friendly WPF interface with rich text logging.
+- **Detailed Logging**: Comprehensive log messages with timestamps, log levels, and thread IDs.
+- **Export Options**: Export scraped data to database files, CSV, and TXT formats.
+- **Multi OS Support**: Compatible with Windows x64/x86/ARM, Linux and MacOS.
+
+
+
 
 ## ![](https://github.com/is-leeroy-jenkins/Scrappy/blob/master/Source/Resources/Assets/GitHubImages/documentation.png) Documentation
 
@@ -29,20 +42,6 @@
 - [Interfaces](https://github.com/is-leeroy-jenkins/Scrappy/tree/master/Source/UI) - abstractions used in the analysis of environmental budget data.
 - `bin` - Binaries are included in the `bin` folder due to the complex Baby setup required. Don't empty this folder.
 - `bin/storage` - HTML and JS required for downloads manager and custom error pages
-
-
-
-## ![](https://github.com/is-leeroy-jenkins/Scrappy/blob/master/Source/Resources/Assets/GitHubImages/features.png) Features
-
-- **Asynchronous Web Scraping**: Efficiently scrape web pages using asynchronous tasks with minimized latency and multi-threading for parallel processing.
-- **Data Collection**: Collects data such as PDFs, CSVs, DOCX, XLS, PPTX, TXT, Images, Videos, JSON, DBSQL, XML, HTML, PHP, JS, Archives, and Miscellaneous files.
-- **Comprehensive JSON, XML, and HTML Parsing**: Utilizes advanced parsing techniques to extract valuable information from JSON, XML, and HTML documents, including finding and processing hidden element data and meta data.
-- **Database Integration**: Organizes scraped URLs into SQLite databases based on their file types.
-- **Modern UI Design**: User-friendly WPF interface with rich text logging.
-- **Detailed Logging**: Comprehensive log messages with timestamps, log levels, and thread IDs.
-- **Export Options**: Export scraped data to database files, CSV, and TXT formats.
-- **Multi OS Support**: Compatible with Windows x64/x86/ARM, Linux and MacOS.
-
 
 
 ## 📦 Download
