@@ -1,16 +1,38 @@
-# netDigger
-
-netDigger is a web scraping application built using .NET 8.0 and C# WPF in Visual Studio. It collects various types of data and exports them into organized and structured databases. The application features a modern UI design with detailed and comprehensive logging.
-<center>
-<div>
-  <img src="https://github.com/user-attachments/assets/513cba1d-d0a3-4461-9422-c67cd6528ec4" alt="netDigger Logo." style="width: 1000px; height: 200px;" />
-  <p align="center"><strong><em>A Powerful In-Depth Web Scraping Application.</em></strong></p>
-</div>
-</center>
+# Scrappy
+![](https://github.com/is-leeroy-jenkins/Scrappy/blob/main/Resources/Assets/GitHubImages/ProjectTemplate.png)
+- Scrappy is a web scraping application built using .NET 8.0 and WPF written in C#. 
+- It collects various types of data and exports them into organized and structured databases. 
+- The application features a modern UI design with detailed and comprehensive logging.
 
 
 
-## Features
+
+## ![](https://github.com/is-leeroy-jenkins/Scrappy/blob/main/Resources/Assets/GitHubImages/documentation.png) Documentation
+
+- [User Guide](Resources/Github/Users.md)
+- [Compilation Guide](Resources/Github/Compilation.md)
+- [Configuration Guide](Resources/Github/Configuration.md)
+- [Distribution Guide](Resources/Github/Distribution.md)
+
+
+## ![](https://github.com/is-leeroy-jenkins/Scrappy/blob/main/Resources/Assets/GitHubImages/csharp.png) Code
+
+- Scrappy uses CefSharp 106 for Baby Browser and is built on NET 6
+- Scrappy supports AnyCPU as well as x86/x64 specific builds
+- [Controls](https://github.com/is-leeroy-jenkins/Scrappy/tree/main/Controls) - main UI layer and associated controls and related functionality.
+- [Enumerations](https://github.com/is-leeroy-jenkins/Scrappy/tree/main/Enumerations) - various enumerations used for budgetary accounting.
+- [Extensions](https://github.com/is-leeroy-jenkins/Scrappy/tree/main/Extensions)- useful extension methods for budget analysis by type.
+- [Clients](https://github.com/is-leeroy-jenkins/Scrappy/tree/main/Clients) - other tools used and available.
+- [Callbacks](https://github.com/is-leeroy-jenkins/Scrappy/tree/main/Callbacks) - delegates, event-hanlders, and events.
+- [IO](https://github.com/is-leeroy-jenkins/Scrappy/tree/main/IO) - input output classes used for networking and the file systemm.
+- [Static](https://github.com/is-leeroy-jenkins/Scrappy/tree/main/Static) - static types used in the analysis of environmental budget data.
+- [Interfaces](https://github.com/is-leeroy-jenkins/Scrappy/tree/Interfaces) - abstractions used in the analysis of environmental budget data.
+- `bin` - Binaries are included in the `bin` folder due to the complex Baby setup required. Don't empty this folder.
+- `bin/storage` - HTML and JS required for downloads manager and custom error pages
+
+
+
+## ![](https://github.com/is-leeroy-jenkins/Scrappy/blob/main/Resources/Assets/GitHubImages/features.png) Features
 
 - **Asynchronous Web Scraping**: Efficiently scrape web pages using asynchronous tasks with minimized latency and multi-threading for parallel processing.
 - **Data Collection**: Collects data such as PDFs, CSVs, DOCX, XLS, PPTX, TXT, Images, Videos, JSON, DBSQL, XML, HTML, PHP, JS, Archives, and Miscellaneous files.
@@ -21,16 +43,61 @@ netDigger is a web scraping application built using .NET 8.0 and C# WPF in Visua
 - **Export Options**: Export scraped data to database files, CSV, and TXT formats.
 - **Multi OS Support**: Compatible with Windows x64/x86/ARM, Linux and MacOS.
 
-## Technologies Used
 
-- **.NET 8.0**
-- **C#**
-- **WPF (Windows Presentation Foundation)**
-- **AngleSharp** for HTML parsing
-- **PuppeteerSharp**: A headless browser automation library for .NET.
-- **Newtonsoft.Json (Json.NET)**: A popular library for working with JSON in .NET.
-- **SQLite** for database management
-- **Concurrent Collections** for thread-safe operations
+
+## 📦 Download
+
+Pre-built and binaries (setup, portable and archive) are available on the with install instructions (e.g. silent install). 
+
+
+
+
+## ![](https://github.com/is-leeroy-jenkins/Scrappy/blob/master/Resources/Assets/GitHubImages/tools.png) Build
+
+- [x] VisualStudio 2022
+- [x] Based on .NET8 and WPF
+
+
+```bash
+$ git clone https://github.com/is-leeroy-jenkins/Scrappy.git
+$ cd Scrappy
+```
+Run `Scrappy.sln`
+
+
+You can build the application like any other .NET / WPF application on Windows.
+
+1. Make sure that the following requirements are installed:
+
+   - [.NET 8.x - SDK](https://dotnet.microsoft.com/download/dotnet/8.0)
+   - Visual Studio 2022 with `.NET desktop development` and `Universal Windows Platform development`
+
+2. Clone the repository with all submodules:
+
+   ```PowerShell
+   # Clone the repository
+   git clone https://github.com/is-leeroy-jenkins/Scrappy
+
+   # Navigate to the repository
+   cd Scrappy
+
+   # Clone the submodules
+   git submodule update --init
+   ```
+
+3. Open the project file `.\Source\Scrappy.sln` with Visual Studio or JetBrains Rider to build (or debug)
+   the solution.
+
+   > **ALTERNATIVE**
+   >
+   > With the following commands you can directly build the binaries from the command line:
+   >
+   > ```PowerShell
+   > dotnet restore .\Source\Scrappy.sln
+   >
+   > dotnet build .\Source\Scrappy.sln --configuration Release --no-restore
+   > ```
+
 
 ## Prerequisites
 
@@ -41,10 +108,10 @@ netDigger is a web scraping application built using .NET 8.0 and C# WPF in Visua
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/your-username/netDigger.git
-   cd netDigger
+   git clone https://github.com/your-username/Scrappy.git
+   cd Scrappy
    ```
-2. Open the solution file (netDigger.sln) in Visual Studio.
+2. Open the solution file (Scrappy.sln) in Visual Studio.
 
 3. Build the project:
 
@@ -53,26 +120,52 @@ Run the application:
 
 Select `Debug > Start Debugging` or press `F5`.
 
-## Contribution
-1. Fork the repository.
-2. Create a new branch (git checkout -b feature-branch).
-3. Commit your changes (git commit -m 'Add new feature').
-4. Push to the branch (git push origin feature-branch).
-5. Create a new Pull Request.
 
-## License
-This project is licensed under the __GNU Affero General Public License v3.0__. See the __LICENSE__ file for more details.
+## 🙏 Acknoledgements
 
-## Support Me
-If you liked this, please consider leaving a star ⭐
+Scrappy uses the following projects and libraries. Please consider supporting them as well (e.g., by starring their repositories):
 
-If you found this to be useful, make sure to follow me for more 🙃
-<center>
-<div style="text-align: center;">
-  <p align="center">
-   <img src="https://github.com/user-attachments/assets/13333030-bd33-4cf6-a2b5-d1dacab12642" alt="octodance" style="margin-right: 10px;"/>
-  </p>
-</div>
-</center>
+|                                                                               |                                                                        |
+| ----------------------------------------------------------------------------- | ---------------------------------------------------------------------- |
+| [#SNMP Library](https://github.com/lextudio/sharpsnmplib)                     | SNMP library for .NET                                                  |
+| [AirspaceFixer](https://github.com/chris84948/AirspaceFixer)                  | AirspacePanel fixes all Airspace issues with WPF-hosted Winforms.      |
+| [ControlzEx](https://github.com/ControlzEx/ControlzEx)                        | Shared Controlz for WPF and more                                       |
+| [DnsClient.NET](https://github.com/MichaCo/DnsClient.NET)                     | Powerful, high-performance open-source library for DNS lookups         |
+| [Docusaurus](https://docusaurus.io/)                                          | Easy to maintain open source documentation websites.                   |
+| [Dragablz](https://dragablz.net/)                                             | Tearable TabControl for WPF                                            |
+| [GongSolutions.Wpf.DragDrop](https://github.com/punker76/gong-wpf-dragdrop)   | An easy to use drag'n'drop framework for WPF                           |
+| [IPNetwork](https://github.com/lduchosal/ipnetwork)                           | .NET library for complex network, IP, and subnet calculations          |
+| [LoadingIndicators.WPF](https://github.com/zeluisping/LoadingIndicators.WPF)  | A collection of loading indicators for WPF                             |
+| [MahApps.Metro.IconPacks](https://github.com/MahApps/MahApps.Metro.IconPacks) | Awesome icon packs for WPF and UWP in one library                      |
+| [MahApps.Metro](https://mahapps.com/)                                         | UI toolkit for WPF applications                                        |
+| [Syncfusion WPF Controls 24.1.41](https://github.com/nulastudio/NetBeauty2)   | UI controls and components and dependencies into a sub-directory       |
+| [PSDiscoveryProtocol](https://github.com/lahell/PSDiscoveryProtocol)          | PowerShell module for LLDP/CDP discovery                               |
+
+## ![](https://github.com/is-leeroy-jenkins/Scrappy/blob/master/Scrappy/Resources/GitHubImages/signature.png)  Code Signing 
+
+Scrappy uses free code signing provided by [SignPath.io](https://signpath.io/) and a free code signing certificate
+from [SignPath Foundation](https://signpath.org/).
+
+The binaries and installer are built on [AppVeyor](https://ci.appveyor.com/project/is-leeroy-jenkins/networkmanager) directly from the [GitHub repository](https://github.com/is-leeroy-jenkins/Scrappy/blob/main/appveyor.yml).
+Build artifacts are automatically sent to [SignPath.io](https://signpath.io/) via webhook, where they are signed after manual approval by the maintainer.
+The signed binaries are then uploaded to the [GitHub releases](https://github.com/is-leeroy-jenkins/Scrappy/releases) page.
+
+
+## ![](https://github.com/is-leeroy-jenkins/Scrappy/blob/master/Scrappy/Resources/GitHubImages/training.png) Privacy Policy
+
+This program will not transfer any information to other networked systems unless specifically requested by the user or the person installing or operating it.
+
+Scrappy has integrated the following services for additional functions, which can be enabled or disabled at the first start (in the welcome dialog) or at any time in the settings:
+
+- [api.github.com](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement) (Check for program updates)
+- [ipify.org](https://www.ipify.org/) (Retrieve the public IP address used by the client)
+- [ip-api.com](https://ip-api.com/docs/legal) (Retrieve network information such as geo location, ISP, DNS resolver used, etc. used by the client)
+
+## 📝 License
+
+Scrappy is published under the [MIT Public License v3](https://github.com/is-leeroy-jenkins/Scrappy/blob/main/LICENSE).
+
+The licenses of the libraries used can be found [here](https://github.com/is-leeroy-jenkins/Scrappy/tree/main/Source/Scrappy.Documentation/Licenses).
+
 
 
