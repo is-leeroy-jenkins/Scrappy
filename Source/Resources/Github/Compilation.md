@@ -1,8 +1,8 @@
-# How to compile Bubba
+# How to compile Scrappy
 
-#### Step 1: Fork a Bubba
+#### Step 1: Fork a Scrappy
 
-Fork the Bubba repository on GitHub.
+Fork the Scrappy repository on GitHub.
 
 #### Step 2: Install Visual Studio
 
@@ -18,12 +18,12 @@ Open VS Community and select "Clone a repository"
 
 #### Step 3: Clone this project
 
-Type in your Bubba fork URL and press "Clone"
+Type in your Scrappy fork URL and press "Clone"
 
 ![image](https://user-images.githubusercontent.com/104514709/183603880-92217d8a-bc99-4adf-b6d7-030096576090.png)
 
 #### Step 4: Develop!
 
-You now have a Bubba! Press "Start" after you choose the system architecture
+You now have a Scrappy! Press "Start" after you choose the system architecture
 
 ![image](https://user-images.githubusercontent.com/104514709/183604128-771daefc-6254-41bc-8660-2d28200a0b1e.png)

@@ -1,5 +1,5 @@
-# How to use Bubba
+# How to use Scrappy
 
-Simply run the executable `BubbaSetup.exe` and it should install.
+Simply run the executable `ScrappySetup.exe` and it should install.
 
 This only works on Windows.
