@@ -1,4 +1,4 @@
-# Scrappy
+##### __
 ![](https://github.com/is-leeroy-jenkins/Scrappy/blob/master/Source/Resources/Assets/GitHubImages/ProjectTemplate.png)
 - Scrappy is a web scraping application built using .NET 8.0 and WPF written in C#. 
 - It collects various types of data and exports them into organized and structured databases. 
@@ -9,10 +9,10 @@
 
 ## ![](https://github.com/is-leeroy-jenkins/Scrappy/blob/master/Source/Resources/Assets/GitHubImages/documentation.png) Documentation
 
-- [User Guide](Resources/Github/Users.md)
-- [Compilation Guide](Resources/Github/Compilation.md)
-- [Configuration Guide](Resources/Github/Configuration.md)
-- [Distribution Guide](Resources/Github/Distribution.md)
+- [User Guide](/Source/Resources/Github/Users.md)
+- [Compilation Guide](/Source/Resources/Github/Compilation.md)
+- [Configuration Guide](/Source/Resources/Github/Configuration.md)
+- [Distribution Guide](/Source/Resources/Github/Distribution.md)
 
 
 ## ![](https://github.com/is-leeroy-jenkins/Scrappy/blob/master/Source/Resources/Assets/GitHubImages/csharp.png) Code
@@ -21,12 +21,12 @@
 - Scrappy supports AnyCPU as well as x86/x64 specific builds
 - [Controls](https://github.com/is-leeroy-jenkins/Scrappy/tree/master/Source/UI/Controls) - main UI layer and associated controls and related functionality.
 - [Enumerations](https://github.com/is-leeroy-jenkins/Scrappy/tree/master/Source/Enumerations) - various enumerations used for budgetary accounting.
-- [Extensions](https://github.com/is-leeroy-jenkins/Scrappy/tree/master/Extensions)- useful extension methods for budget analysis by type.
-- [Clients](https://github.com/is-leeroy-jenkins/Scrappy/tree/master/Data/Clients) - other tools used and available.
-- [Callbacks](https://github.com/is-leeroy-jenkins/Scrappy/tree/master/Callbacks) - delegates, event-hanlders, and events.
-- [IO](https://github.com/is-leeroy-jenkins/Scrappy/tree/master/IO) - input output classes used for networking and the file systemm.
-- [Static](https://github.com/is-leeroy-jenkins/Scrappy/tree/master/Static) - static types used in the analysis of environmental budget data.
-- [Interfaces](https://github.com/is-leeroy-jenkins/Scrappy/tree/master/UI) - abstractions used in the analysis of environmental budget data.
+- [Extensions](https://github.com/is-leeroy-jenkins/Scrappy/tree/master/Source/Extensions)- useful extension methods for budget analysis by type.
+- [Clients](https://github.com/is-leeroy-jenkins/Scrappy/tree/master/Source/Data/Clients) - other tools used and available.
+- [Callbacks](https://github.com/is-leeroy-jenkins/Scrappy/tree/master/Source/Callbacks) - delegates, event-hanlders, and events.
+- [IO](https://github.com/is-leeroy-jenkins/Scrappy/tree/master/Source/IO) - input output classes used for networking and the file systemm.
+- [Static](https://github.com/is-leeroy-jenkins/Scrappy/tree/master/Source/Static) - static types used in the analysis of environmental budget data.
+- [Interfaces](https://github.com/is-leeroy-jenkins/Scrappy/tree/master/Source/UI) - abstractions used in the analysis of environmental budget data.
 - `bin` - Binaries are included in the `bin` folder due to the complex Baby setup required. Don't empty this folder.
 - `bin/storage` - HTML and JS required for downloads manager and custom error pages
 
