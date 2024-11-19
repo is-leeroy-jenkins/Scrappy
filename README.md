@@ -1,13 +1,21 @@
-##### __
+<div align="left">
+  <p>
+    <a href="https://github.com/is-leeroy-jenkins/Scrappy/tree/master/Resources/Github/Users.md">Download</a> •  <a href="">Documentation</a> •<a href="https://github.com/is-leeroy-jenkins/Scrappy/tree/master/Resources/Github/Compilation.md">Build</a> • <a href="#-license">License</a>
+  </p>
+  <p>
+    
+  </p>
+</div>
+_
 ![](https://github.com/is-leeroy-jenkins/Scrappy/blob/master/Source/Resources/Assets/GitHubImages/ProjectTemplate.png)
-- Scrappy is a web scraping application built using .NET 8.0 and WPF written in C#. 
-- It collects various types of data and exports them into organized and structured databases. 
-- The application features a modern UI design with detailed and comprehensive logging.
 
 
 
 ## ![](https://github.com/is-leeroy-jenkins/Scrappy/blob/master/Source/Resources/Assets/GitHubImages/features.png) Features
 
+- Scrappy is a web scraping application built using .NET 8.0 and WPF written in C#. 
+- It collects various types of data and exports them into organized and structured databases. 
+- The application features a modern UI design with detailed and comprehensive logging.
 - **Asynchronous Web Scraping**: Efficiently scrape web pages using asynchronous tasks with minimized latency and multi-threading for parallel processing.
 - **Data Collection**: Collects data such as PDFs, CSVs, DOCX, XLS, PPTX, TXT, Images, Videos, JSON, DBSQL, XML, HTML, PHP, JS, Archives, and Miscellaneous files.
 - **Comprehensive JSON, XML, and HTML Parsing**: Utilizes advanced parsing techniques to extract valuable information from JSON, XML, and HTML documents, including finding and processing hidden element data and meta data.
