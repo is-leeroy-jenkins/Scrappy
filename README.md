@@ -106,12 +106,12 @@ You can build the application like any other .NET / WPF application on Windows.
    > ```
 
 
-## Prerequisites
+## ![](https://github.com/is-leeroy-jenkins/Scrappy/blob/master/Source/Resources/Assets/GitHubImages/system_requirements.png) Prerequisites
 
 - .NET 8.0 Desktop Runtime or SDK Framework.
 - Visual Studio 2022. (In case you want to build it yourself).
 
-## Installation
+## ![](https://github.com/is-leeroy-jenkins/Scrappy/blob/master/Source/Resources/Assets/GitHubImages/administrative-tools.png) Installation
 
 1. Clone the repository:
    ```sh
@@ -148,7 +148,7 @@ Scrappy uses the following projects and libraries. Please consider supporting th
 | [Syncfusion WPF Controls 24.1.41](https://github.com/nulastudio/NetBeauty2)   | UI controls and components and dependencies into a sub-directory       |
 | [PSDiscoveryProtocol](https://github.com/lahell/PSDiscoveryProtocol)          | PowerShell module for LLDP/CDP discovery                               |
 
-## ![](https://github.com/is-leeroy-jenkins/Scrappy/blob/master/Source/Resources/GitHubImages/signature.png)  Code Signing 
+## ![](https://github.com/is-leeroy-jenkins/Scrappy/blob/master/Source/Resources/Assets/GitHubImages/signature.png)  Code Signing 
 
 Scrappy uses free code signing provided by [SignPath.io](https://signpath.io/) and a free code signing certificate
 from [SignPath Foundation](https://signpath.org/).
@@ -158,7 +158,7 @@ Build artifacts are automatically sent to [SignPath.io](https://signpath.io/) vi
 The signed binaries are then uploaded to the [GitHub releases](https://github.com/is-leeroy-jenkins/Scrappy/releases) page.
 
 
-## ![](https://github.com/is-leeroy-jenkins/Scrappy/blob/master/Source/Resources/GitHubImages/training.png) Privacy Policy
+## ![](https://github.com/is-leeroy-jenkins/Scrappy/blob/master/Source/Resources/Assets/GitHubImages/training.png) Privacy Policy
 
 This program will not transfer any information to other networked systems unless specifically requested by the user or the person installing or operating it.
 
