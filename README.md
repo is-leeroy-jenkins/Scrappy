@@ -158,7 +158,7 @@ Build artifacts are automatically sent to [SignPath.io](https://signpath.io/) vi
 The signed binaries are then uploaded to the [GitHub releases](https://github.com/is-leeroy-jenkins/Scrappy/releases) page.
 
 
-## ![](https://github.com/is-leeroy-jenkins/Scrappy/blob/master/Source/Resources/Assets/GitHubImages/training.png) Privacy Policy
+## ![](https://github.com/is-leeroy-jenkins/Scrappy/blob/master/Source/Resources/Assets/GitHubImages/guidance.png) Privacy Policy
 
 This program will not transfer any information to other networked systems unless specifically requested by the user or the person installing or operating it.
 
