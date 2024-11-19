@@ -6,7 +6,7 @@
     
   </p>
 </div>
-_
+
 ![](https://github.com/is-leeroy-jenkins/Scrappy/blob/master/Source/Resources/Assets/GitHubImages/ProjectTemplate.png)
 
 
